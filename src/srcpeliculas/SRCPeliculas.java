@@ -21,7 +21,7 @@ public class SRCPeliculas {
         // TODO code application logic here
         SistemaRecomendacion SRC = new SistemaRecomendacion();
         if(SRC.validarDatosUsuario("usuario43@mail.com")){
-            System.out.println("disponible");
+            System.out.println("disponible"+"modificado");
         }
     }
 }
